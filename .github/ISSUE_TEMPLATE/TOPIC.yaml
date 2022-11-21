@@ -4,18 +4,31 @@ body:
   - type: textarea
     attributes:
       label: Title
-      description: What is the title of the topic?
-      placeholder: Best Idea Pool Topic ever
+      placeholder: The best Idea Pool Topic ever
     validations:
       required: true
   - type: textarea
     attributes:
       label: About
       description: What is the topic about? (A brief summary of the topic, topics to be covered)
-      placeholder: The brief introduction of the Best Idea Pool Topic ever
+      placeholder: Brief introduction of The best Idea Pool Topic ever
     validations:
       required: true
   - type: textarea
     attributes:
       label: Additional information
-      description: Link to materials, articles
+      description: Notes, link to materials, articles
+      placeholder: "https://example.com"
+  - type: dropdown
+    id: Idea Pool Format
+    attributes:
+      label: What is the potential artifact of the topic?
+      multiple: true
+      options:
+        - Ambitions
+        - Article
+        - Demo
+        - Expo
+        - Minutes
+        - Project
+        - Webinar
