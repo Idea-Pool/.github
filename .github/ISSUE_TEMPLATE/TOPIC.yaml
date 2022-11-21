@@ -22,7 +22,7 @@ body:
   - type: dropdown
     id: Idea Pool Format
     attributes:
-      label: What is the potential artifact of the topic?
+      label: The potential artifact of the topic
       multiple: true
       options:
         - Ambitions
