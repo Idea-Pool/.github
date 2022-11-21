@@ -20,7 +20,7 @@ body:
       description: Notes, link to materials, articles
       placeholder: "https://example.com"
   - type: dropdown
-    id: Idea Pool Format
+    id: format
     attributes:
       label: The potential artifact of the topic
       multiple: true
