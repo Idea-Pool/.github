@@ -5,7 +5,7 @@ body:
     attributes:
      label: Title
      description: What is the title of the topic?
-     placeholder: Example: Best Idea Pool Topic ever
+     placeholder: Best Idea Pool Topic ever
    validations:
      required: true
   - type: textarea
