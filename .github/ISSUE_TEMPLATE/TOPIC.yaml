@@ -3,16 +3,16 @@ description: Use this template for tracking new topic ideas.
 body:
   - type: textarea
     attributes:
-     label: Title
-     description: What is the title of the topic?
-     placeholder: Best Idea Pool Topic ever
-   validations:
-     required: true
+      label: Title
+      description: What is the title of the topic?
+      placeholder: Best Idea Pool Topic ever
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: About
       description: What is the topic about? (A brief summary of the topic, topics to be covered)
-      placeholder: Example: The brief introduction of the Best Idea Pool Topic ever
+      placeholder: The brief introduction of the Best Idea Pool Topic ever
     validations:
       required: true
   - type: textarea
